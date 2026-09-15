@@ -1,10 +1,10 @@
-package org.mock.service;
+package org.mock;
 
 import org.mock.persistence.entity.Player;
 
 import java.util.List;
 
-public interface IPlayerService {
+public interface giIPlayerService {
     List<Player> findAll();
     Player findById(Long id);
     void save(Player player);
