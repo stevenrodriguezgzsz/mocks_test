@@ -19,6 +19,7 @@ public class IPlayerRepositoryImplement implements IPlayerRepository{
     @Override
     public List<Player> findAll() {
         System.out.println("Metodo FindALL REAL!!!");
+
         return this.playerDatabase;
     }
 

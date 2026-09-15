@@ -1,4 +1,4 @@
-package org.mock.service;
+package org.mock;
 
 import org.mock.persistence.entity.Player;
 import org.mock.persistence.entity.repository.IPlayerRepositoryImplement;
